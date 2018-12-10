@@ -1,0 +1,800 @@
+{
+    "https://docs.microsoft.com/windows/device-security/auditing/event-4738": {
+        "referenced_by": [
+            "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27"
+        ],
+        "description": "Lich, B., Miroshnikov, A. (2017, April 5). 4738(S): A user account was changed. Retrieved June 30, 2017.",
+        "source_name": "Microsoft User Modified Event"
+    },
+    "http://www.rvrsh3ll.net/blog/empyre/operating-with-empyre/": {
+        "referenced_by": [
+            "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f"
+        ],
+        "description": "rvrsh3ll. (2016, May 18). Operating with EmPyre. Retrieved July 12, 2017.",
+        "source_name": "Operating with EmPyre"
+    },
+    "https://docs.microsoft.com/windows/device-security/auditing/event-4720": {
+        "referenced_by": [
+            "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67"
+        ],
+        "description": "Lich, B., Miroshnikov, A. (2017, April 5). 4720(S): A user account was created. Retrieved June 30, 2017.",
+        "source_name": "Microsoft User Creation Event"
+    },
+    "https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/4beddb35-0cba-424c-8b9b-a5832ad8e208.mspx": {
+        "referenced_by": [
+            "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2"
+        ],
+        "description": "Microsoft. (n.d.). Managing WebDAV Security (IIS 6.0). Retrieved December 21, 2017.",
+        "source_name": "Microsoft Managing WebDAV Security"
+    },
+    "https://www.us-cert.gov/ncas/alerts/TA17-293A": {
+        "referenced_by": [
+            "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2",
+            "relationship--f67c1df3-9a03-456e-9de9-74a2ac3a2061",
+            "relationship--41590e53-8d15-4924-bfd7-850f7b3f23ea",
+            "relationship--8f648221-38fe-4c81-b6d6-d41c398ff870",
+            "relationship--2344234d-d1e3-433f-a43b-0225b4e4889c",
+            "relationship--204159d6-7f4a-4e0f-b492-974a776af423",
+            "relationship--558d3835-3bcc-4c07-92b1-626a89d79e76",
+            "relationship--e9560ef6-7ed4-45bd-be7c-525f6708308e",
+            "relationship--206a6a93-9858-4f0b-b389-af1c28502118",
+            "relationship--4c1e067a-0644-4142-8111-c1acdc8c1625",
+            "relationship--0bd48ff5-c1f7-48f4-8057-aad487b25575",
+            "relationship--1da542f3-0003-4eb7-9bb6-1bd3cced9763",
+            "relationship--632e3144-8785-41c4-a937-7e11139b2ae1",
+            "relationship--79672f1b-d7a9-494e-9c0b-82eadb88389a",
+            "relationship--ee9d56a1-ec92-459c-bd3e-7fc9f52f628d",
+            "relationship--cb046be9-87c4-4dbd-b01f-9771aa4f2552",
+            "relationship--3fffa7b5-6797-4d99-96e4-a50db0e8810c",
+            "relationship--b75c08e0-4d11-46dc-a582-ca496352bb1c",
+            "relationship--a5dda6bc-4697-4e2e-8207-85e9f0d05d43",
+            "relationship--87f59d5f-cfda-4e5a-aa0d-6a7cb395528b",
+            "relationship--2d3fea03-c3a4-414c-8827-8f0416b1f88d",
+            "relationship--a581ef45-9363-4fdc-b0ff-20436eaffaab",
+            "relationship--55da48f1-79ee-44b7-af90-175622c411a8",
+            "course-of-action--7009ba4d-83d4-4851-9fbb-e09e28497765"
+        ],
+        "description": "US-CERT. (2017, October 20). Alert (TA17-293A): Advanced Persistent Threat Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved November 2, 2017.",
+        "source_name": "US-CERT APT Energy Oct 2017"
+    },
+    "https://www2.cybereason.com/research-osx-pirrit-mac-os-x-secuirty": {
+        "referenced_by": [
+            "attack-pattern--ce73ea43-8e77-47ba-9c11-5e9c9c58b9ff"
+        ],
+        "description": "Amit Serper. (2016). Cybereason Lab Analysis OSX.Pirrit. Retrieved July 8, 2017.",
+        "source_name": "Cybereason OSX Pirrit"
+    },
+    "https://www.exploit-db.com/docs/17802.pdf": {
+        "referenced_by": [
+            "attack-pattern--66f73398-8394-4711-85e5-34c8540b22a5"
+        ],
+        "description": "Mariani, B. (2011, September 6). Inline Hooking in Windows. Retrieved December 12, 2017.",
+        "source_name": "HighTech Bridge Inline Hooking Sept 2011"
+    },
+    "http://www.megasecurity.org/papers/Rootkits.pdf": {
+        "referenced_by": [
+            "attack-pattern--6be14413-578e-46c1-8304-310762b3ecd5"
+        ],
+        "description": "Chuvakin, A. (2003, February). An Overview of Rootkits. Retrieved April 6, 2018.",
+        "source_name": "iDefense Rootkit Overview"
+    },
+    "https://support.apple.com/de-at/HT2420": {
+        "referenced_by": [
+            "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334"
+        ],
+        "description": "Apple. (2011, June 1). Mac OS X: Creating a login hook. Retrieved July 17, 2017.",
+        "source_name": "creating login hook"
+    },
+    "https://www.iad.gov/iad/library/reports/spotting-the-adversary-with-windows-event-log-monitoring.cfm": {
+        "referenced_by": [
+            "attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff",
+            "course-of-action--3e9f8875-d2f7-4380-a578-84393bd3b025"
+        ],
+        "description": "National Security Agency/Central Security Service Information Assurance Directorate. (2015, August 7). Spotting the Adversary with Windows Event Log Monitoring. Retrieved September 6, 2018.",
+        "source_name": "NSA Spotting"
+    },
+    "http://support.microsoft.com/KB/103000": {
+        "referenced_by": [
+            "attack-pattern--c4ad009b-6e13-4419-8d21-918a1652de02"
+        ],
+        "description": "Microsoft. (n.d.). CurrentControlSet\\Services Subkey Entries. Retrieved November 30, 2014.",
+        "source_name": "Microsoft Subkey"
+    },
+    "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/unveilingthemask_v1.0.pdf": {
+        "referenced_by": [
+            "attack-pattern--56ff457d-5e39-492b-974c-dfd2b8603ffe"
+        ],
+        "description": "Kaspersky Labs. (2014, February 11). Unveiling \u201cCareto\u201d - The Masked APT. Retrieved July 5, 2017.",
+        "source_name": "Kaspersky Careto"
+    },
+    "http://vxer.org/lib/vrn00.html": {
+        "referenced_by": [
+            "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
+        ],
+        "description": "O'Neill, R. (2009, May). Modern Day ELF Runtime infection via GOT poisoning. Retrieved December 20, 2017.",
+        "source_name": "VDSO hijack 2009"
+    },
+    "https://access.redhat.com/documentation/red_hat_enterprise_linux/6/html/security_guide/chap-system_auditing": {
+        "referenced_by": [
+            "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d"
+        ],
+        "description": "Jahoda, M. et al.. (2017, March 14). redhat Security Guide - Chapter 7 - System Auditing. Retrieved December 20, 2017.",
+        "source_name": "RHEL auditd"
+    },
+    "https://blogs.technet.microsoft.com/eduardonavarro/2008/07/11/sips-subject-interface-package-and-authenticode/": {
+        "referenced_by": [
+            "attack-pattern--72b5ef57-325c-411b-93ca-a3ca6fa17e31"
+        ],
+        "description": "Navarro, E. (2008, July 11). SIP\u2019s (Subject Interface Package) and Authenticode. Retrieved January 31, 2018.",
+        "source_name": "EduardosBlog SIPs July 2008"
+    },
+    "https://social.technet.microsoft.com/Forums/en-US/e5bca729-52e7-4fcb-ba12-3225c564674c/scheduled-tasks-history-retention-settings?forum=winserver8gen": {
+        "referenced_by": [
+            "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9"
+        ],
+        "description": "Satyajit321. (2015, November 3). Scheduled Tasks History Retention settings. Retrieved December 12, 2017.",
+        "source_name": "TechNet Forum Scheduled Task Operational Setting"
+    },
+    "http://support.microsoft.com/KB/170292": {
+        "referenced_by": [
+            "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b"
+        ],
+        "description": "Microsoft. (n.d.). Internet Control Message Protocol (ICMP) Basics. Retrieved December 1, 2014.",
+        "source_name": "Microsoft ICMP"
+    },
+    "https://www.commandfive.com/papers/C5_APT_SKHack.pdf": {
+        "referenced_by": [
+            "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7"
+        ],
+        "description": "Command Five Pty Ltd. (2011, September). SK Hack by an Advanced Persistent Threat. Retrieved April 6, 2018.",
+        "source_name": "Command Five SK 2011"
+    },
+    "https://blogs.msdn.microsoft.com/visualstudio/2011/10/19/introducing-the-microsoft-roslyn-ctp/": {
+        "referenced_by": [
+            "attack-pattern--ff25900d-76d5-449b-a351-8824e62fc81b"
+        ],
+        "description": "Osenkov, K. (2011, October 19). Introducing the Microsoft \u201cRoslyn\u201d CTP. Retrieved June 28, 2017.",
+        "source_name": "Microsoft Roslyn CPT RCSI"
+    },
+    "https://twitter.com/subTee/status/793151392185589760": {
+        "referenced_by": [
+            "attack-pattern--ff25900d-76d5-449b-a351-8824e62fc81b"
+        ],
+        "description": "Smith, C. (2016, October 31). SubTee Twitter Status. Retrieved November 1, 2017.",
+        "source_name": "Twitter SubTee Tracker.exe"
+    },
+    "https://www.us-cert.gov/ncas/alerts/TA15-314A": {
+        "referenced_by": [
+            "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
+            "course-of-action--bcc91b8c-f104-4710-964e-1d5409666736"
+        ],
+        "description": "US-CERT. (2015, November 13). Compromised Web Servers and Web Shells - Threat Awareness and Guidance. Retrieved June 8, 2016.",
+        "source_name": "US-CERT Alert TA15-314A Web Shells"
+    },
+    "http://support.microsoft.com/kb/314984": {
+        "referenced_by": [
+            "attack-pattern--ffe742ed-9100-4686-9e00-c331da544787"
+        ],
+        "description": "Microsoft. (n.d.). How to create and delete hidden or administrative shares on client computers. Retrieved November 20, 2014.",
+        "source_name": "Microsoft Admin Shares"
+    },
+    "https://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order": {
+        "referenced_by": [
+            "attack-pattern--514ede4c-78b3-4d78-a38b-daddf6217a79"
+        ],
+        "description": "Langendorf, S. (2013, September 24). Windows Registry Persistence, Part 2: The Run Keys and Search-Order. Retrieved April 11, 2018.",
+        "source_name": "Cylance Reg Persistence Sept 2013"
+    },
+    "https://www.microsoft.com/download/details.aspx?id=21714": {
+        "referenced_by": [
+            "attack-pattern--ebbe170d-aa74-4946-8511-9921243415a3"
+        ],
+        "description": "Microsoft. (n.d.). Command Line Transformation Utility (msxsl.exe). Retrieved July 3, 2018.",
+        "source_name": "Microsoft msxsl.exe"
+    },
+    "https://securelist.com/files/2014/11/darkhotel_kl_07.11.pdf": {
+        "referenced_by": [
+            "relationship--5bad7b38-36b5-4208-9895-e4a113c511a3",
+            "relationship--37c94531-1e56-4640-93fd-e9fd65da4f80",
+            "relationship--b69424ec-3af6-44aa-842a-81fba219b9f4",
+            "relationship--27b05a62-5310-40d9-9e49-b4dce3afad55",
+            "relationship--d021d378-a5ff-4020-972c-cc9152e824b0",
+            "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383"
+        ],
+        "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, November). The Darkhotel APT A Story of Unusual Hospitality. Retrieved November 12, 2014.",
+        "source_name": "Kaspersky Darkhotel"
+    },
+    "https://www.us-cert.gov/ncas/alerts/TA18-074A": {
+        "referenced_by": [
+            "relationship--f993e545-2d09-48c1-9b82-110ab798bdcf",
+            "relationship--f67c1df3-9a03-456e-9de9-74a2ac3a2061",
+            "relationship--41590e53-8d15-4924-bfd7-850f7b3f23ea",
+            "relationship--8f648221-38fe-4c81-b6d6-d41c398ff870",
+            "relationship--d848b82c-1b72-4054-b4c1-f31d6d09af6c",
+            "relationship--35e47be3-2a31-401f-ad65-a2fa34f861f1",
+            "relationship--6e422de0-d8c4-41f8-acdd-d433e14e32a3",
+            "relationship--2344234d-d1e3-433f-a43b-0225b4e4889c",
+            "relationship--204159d6-7f4a-4e0f-b492-974a776af423",
+            "relationship--558d3835-3bcc-4c07-92b1-626a89d79e76",
+            "relationship--e9560ef6-7ed4-45bd-be7c-525f6708308e",
+            "relationship--206a6a93-9858-4f0b-b389-af1c28502118",
+            "relationship--319189e0-9db0-46f8-9386-0d909db94a46",
+            "relationship--4c1e067a-0644-4142-8111-c1acdc8c1625",
+            "relationship--7af4c9fb-72c2-437e-b0f2-caf3f07d493b",
+            "relationship--1da542f3-0003-4eb7-9bb6-1bd3cced9763",
+            "relationship--d164d443-6298-47eb-b767-8f1136f6b6b5",
+            "relationship--6db4aabc-a2ed-4db2-8ecb-c9ca11dc8f46",
+            "relationship--632e3144-8785-41c4-a937-7e11139b2ae1",
+            "relationship--79672f1b-d7a9-494e-9c0b-82eadb88389a",
+            "relationship--79eff26b-058c-4a5c-ac7a-f6e6c778d934",
+            "relationship--d1adaa26-90e3-4a7f-af07-577b3003be4c",
+            "relationship--ee9d56a1-ec92-459c-bd3e-7fc9f52f628d",
+            "relationship--cb046be9-87c4-4dbd-b01f-9771aa4f2552",
+            "relationship--3fffa7b5-6797-4d99-96e4-a50db0e8810c",
+            "relationship--28b125cf-ff1a-4798-8b8a-3724d052e848",
+            "relationship--49455f19-b4da-401f-8f61-93965f5a1850",
+            "relationship--b75c08e0-4d11-46dc-a582-ca496352bb1c",
+            "relationship--61e11940-0a88-48c8-8532-e57b5bb6bdb6",
+            "relationship--9723e536-1491-45a4-8dc7-716e4d7df7dc",
+            "relationship--a5dda6bc-4697-4e2e-8207-85e9f0d05d43",
+            "relationship--87f59d5f-cfda-4e5a-aa0d-6a7cb395528b",
+            "relationship--f9906a11-8ac7-4bd4-9c28-c58834ff593b",
+            "relationship--f4ab77d2-1227-46ac-a4be-f8078072dac7",
+            "relationship--2d3fea03-c3a4-414c-8827-8f0416b1f88d",
+            "relationship--a581ef45-9363-4fdc-b0ff-20436eaffaab",
+            "relationship--b0bfd6bc-95fd-4587-8d2d-2d40c3c25ba0",
+            "relationship--82e1ab81-89f9-4d96-87fd-69d04c6710f3",
+            "relationship--6b6343a9-0679-4fa7-943f-c9a2b9df55e2",
+            "relationship--55da48f1-79ee-44b7-af90-175622c411a8",
+            "intrusion-set--76d59913-1d24-4992-a8ac-05a3eb093f71"
+        ],
+        "description": "US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.",
+        "source_name": "US-CERT TA18-074A"
+    },
+    "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536.11.WHITE.pdf": {
+        "referenced_by": [
+            "relationship--979812c4-939e-4a7e-96b3-348028db10ce",
+            "relationship--de376ec3-0fad-4c41-944d-2d74cee6968c",
+            "relationship--ae61abba-14fb-4d4e-9f8e-a3b18500b449"
+        ],
+        "description": "US-CERT. (2018, March 09). Malware Analysis Report (MAR) - 10135536.11.WHITE. Retrieved June 13, 2018.",
+        "source_name": "US-CERT SHARPKNOT June 2018"
+    },
+    "https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf": {
+        "referenced_by": [
+            "relationship--7138c1e4-6791-424b-adc1-5b4c7d5e3cca",
+            "relationship--7209b3d7-b8c8-4fc0-89fb-a5448f015540",
+            "relationship--db283fff-4b13-4c79-85f0-5cdb6b76e964",
+            "relationship--8d4effdd-6d91-473d-aa81-d121f1c77881",
+            "relationship--babaa2be-7c41-490a-bd0b-2cf140858244",
+            "relationship--2cfa6113-1995-494a-b767-61d3f371e0ea",
+            "relationship--1684e405-53bd-4951-a26d-e7c39887b06a",
+            "relationship--fbfc610a-5355-40fc-b5a1-059e89a1eb8d",
+            "relationship--79ecf1f6-a17d-4374-a84c-811669e39261",
+            "relationship--bb2ba4b6-d96a-4d66-ac13-aa657108b363",
+            "relationship--0df8e968-716a-4de9-9669-862af62d6eb6",
+            "relationship--c5cf4822-a0bf-442a-9943-1937ac45520b",
+            "relationship--19c33297-1efd-4489-b09c-a4230ce194f4",
+            "relationship--c80250a5-79c0-4a46-a0e3-49d6bcd574c6",
+            "relationship--af6e3f9e-7c71-484d-ab8e-5adaaaedea36",
+            "relationship--70a93fc8-83c0-4407-8224-ae447af1235a",
+            "relationship--2e367a09-1d94-4ea4-984c-a592b769fffa",
+            "relationship--8904bd95-4844-4fe4-b6b6-47e4a4f8d85d",
+            "relationship--93d83b03-8367-4655-84a5-9abaee885700",
+            "relationship--550bf43e-53da-467e-affd-9f44ad668508",
+            "relationship--9df1a5b0-f1fb-4239-abb5-67ba6e9e05f6",
+            "relationship--2e77d363-e38f-40ad-a6ef-9222dc12793d",
+            "relationship--329678a6-eb6b-499b-90a8-059d1cf1a35f",
+            "relationship--fea6e347-95f5-4d97-8781-4cc15d6b5b0c",
+            "relationship--13204383-a747-4f7f-a75c-858ddc76beab",
+            "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+            "malware--007b44b6-e4c5-480b-b5b9-56f2081b1b7b",
+            "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
+            "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
+            "malware--22addc7b-b39f-483d-979a-1b35147da5de"
+        ],
+        "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.",
+        "source_name": "Baumgartner Naikon 2015"
+    },
+    "http://blog.cassidiancybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2": {
+        "referenced_by": [
+            "relationship--93b12e1a-7f21-4fa0-9b2a-c96c7c270625",
+            "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647"
+        ],
+        "description": "Bizeul, D., Fontarensky, I., Mouchoux, R., Perigaud, F., Pernet, C. (2014, July 11). Eye of the Tiger. Retrieved September 29, 2015.",
+        "source_name": "Bizeul 2014"
+    },
+    "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf": {
+        "referenced_by": [
+            "relationship--998650da-f301-46be-ab18-38d14359530b",
+            "relationship--350e9dad-4dd3-450f-b649-60340710505a",
+            "relationship--ad7592fd-f5d3-4802-9217-dffe89a6c8eb",
+            "relationship--ffee57f7-edea-499d-8912-88cd3204648a",
+            "relationship--a6ddb76d-4317-4cfd-9e1d-57d8a0c5fb21",
+            "relationship--388b4637-f634-42ab-a370-981be7da89bd",
+            "relationship--4086a9d6-5574-48fb-be8d-e8406145e740",
+            "relationship--ed2f811d-3258-4489-abe1-57dac4bdbbf8",
+            "relationship--c33c2a0f-eb88-43ef-be7b-6311bef2da3d",
+            "relationship--a8f11c39-df96-451e-a93a-417512f82819",
+            "relationship--48fb8267-5d68-467b-a2c0-8302cc15ebed",
+            "relationship--0741e02b-edaa-43a4-a96c-d6baf2d29015",
+            "relationship--07921720-429b-432c-8147-187162326ff2",
+            "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f"
+        ],
+        "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+        "source_name": "Accenture Hogfish April 2018"
+    },
+    "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-G.PDF": {
+        "referenced_by": [
+            "relationship--aa698440-b114-4ab4-b66d-e5583071f3e9",
+            "relationship--8840d33c-de12-45d5-a0e3-cdfddf789794",
+            "relationship--5f6e76c5-732c-4bc8-9c17-ac1e58a5d88e",
+            "relationship--f966726b-ff17-4769-8514-e76be900aafa",
+            "relationship--3a11eb81-545a-4153-8c3b-feb47db1f288",
+            "relationship--279654f5-dece-48db-bc9a-93242b62433c",
+            "relationship--7e559e10-483a-42ca-8ddf-d8ca04ed8bd2",
+            "malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2"
+        ],
+        "description": "US-CERT. (2018, February 06). Malware Analysis Report (MAR) - 10135536-G. Retrieved June 7, 2018.",
+        "source_name": "US-CERT BADCALL"
+    },
+    "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF": {
+        "referenced_by": [
+            "relationship--5782aac5-a4c6-4d17-88c9-e29b795e3ee7",
+            "relationship--c6bdfb77-f57a-4ad6-9c09-635ff19a887f",
+            "relationship--df520c15-50fc-46cf-8559-368e88072aa7",
+            "relationship--5412525e-cba5-4fa1-89ff-7e6fa2b92e24",
+            "relationship--25d926a0-d2b5-473d-b27b-fb69cf763b77",
+            "relationship--c9a7b725-bdab-4955-a963-b747a406102b",
+            "relationship--77d079b6-2df9-4ae9-bc7c-1ebe99708660",
+            "relationship--945a3286-2197-4984-8838-837afcd7925c",
+            "relationship--55de5c21-4cb1-4235-89b5-df77dfc7fa90",
+            "relationship--a15e391d-cc21-484d-839a-b7057ae40179",
+            "relationship--c0d119a2-c5f9-4c18-a18c-28bfa576ea9a"
+        ],
+        "description": "US-CERT. (2017, December 13). Malware Analysis Report (MAR) - 10135536-B. Retrieved July 17, 2018.",
+        "source_name": "US-CERT Bankshot Dec 2017"
+    },
+    "https://www.trustwave.com/Resources/SpiderLabs-Blog/Shining-the-Spotlight-on-Cherry-Picker-PoS-Malware/": {
+        "referenced_by": [
+            "relationship--171380bf-41ff-43da-86fe-c131f5f7b97b",
+            "relationship--ed2c177c-18fc-4bfd-9169-48af1557a542",
+            "relationship--cb4af413-9bd7-4f1a-a693-57d11ffccbf5",
+            "malware--b2203c59-4089-4ee4-bfe1-28fa25f0dbfe"
+        ],
+        "description": "Merritt, E.. (2015, November 16). Shining the Spotlight on Cherry Picker PoS Malware. Retrieved April 20, 2016.",
+        "source_name": "Trustwave Cherry Picker"
+    },
+    "http://blog.airbuscybersecurity.com/post/2015/11/Newcomers-in-the-Derusbi-family": {
+        "referenced_by": [
+            "relationship--7fd4fe68-0f2a-485c-9b10-6847428ef5da"
+        ],
+        "description": "Perigaud, F. (2015, December 15). Newcomers in the Derusbi family. Retrieved December 20, 2017.",
+        "source_name": "Airbus Derusbi 2015"
+    },
+    "https://www.us-cert.gov/ncas/alerts/TA17-318A": {
+        "referenced_by": [
+            "relationship--39fdd17c-5f59-4daf-bf14-95841b5ec248",
+            "relationship--35f02c40-d46f-44fa-8ba2-5106357494b4",
+            "relationship--3b32f3be-5bdd-4de8-9e39-83b0b8c1e70f",
+            "relationship--5dd257c0-c2cb-422a-9991-93ff667c5ad6",
+            "relationship--760be456-6b72-4b86-b5aa-3297aa89bc4d",
+            "relationship--27834043-1004-4a70-9023-a318bd6db7c6",
+            "relationship--3017cf15-f6a8-4281-8c74-9dd8f7c2666f",
+            "malware--fece06b7-d4b1-42cf-b81a-5323c917546e"
+        ],
+        "description": "US-CERT. (2017, November 22). Alert (TA17-318A): HIDDEN COBRA \u2013 North Korean Remote Administration Tool: FALLCHILL. Retrieved December 7, 2017.",
+        "source_name": "US-CERT FALLCHILL Nov 2017"
+    },
+    "https://securelist.com/files/2015/06/The_Mystery_of_Duqu_2_0_a_sophisticated_cyberespionage_actor_returns.pdf": {
+        "referenced_by": [
+            "relationship--968610c5-7fa5-4840-b9bb-2f70eecd87fa"
+        ],
+        "description": "Kaspersky Lab. (2015, June 11). The Duqu 2.0. Retrieved April 21, 2017.",
+        "source_name": "Kaspersky Duqu 2.0"
+    },
+    "http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/": {
+        "referenced_by": [
+            "relationship--bb8149a2-fdda-4c3a-9e02-f530c4ee7962"
+        ],
+        "description": "CyberESI. (2011). TROJAN.GTALK. Retrieved June 29, 2015.",
+        "source_name": "CyberESI GTALK"
+    },
+    "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-F.pdf": {
+        "referenced_by": [
+            "relationship--e1614b27-52c5-41e5-bbcb-ab08a9a5e85c",
+            "relationship--9e193b3a-3f21-43aa-b373-6fcec59ff2c7",
+            "relationship--8576db0e-6a7c-40d4-b797-fb0094d5849f",
+            "relationship--74bb0ae9-589c-4479-9bd5-b9a71a20e82d",
+            "relationship--d2ff3fa8-04ee-4999-bb84-197513419090",
+            "malware--bd0536d7-b081-43ae-a773-cfb057c5b988"
+        ],
+        "description": "US-CERT. (2018, February 05). Malware Analysis Report (MAR) - 10135536-F. Retrieved June 11, 2018.",
+        "source_name": "US-CERT HARDRAIN March 2018"
+    },
+    "https://www.nsec.io/wp-content/uploads/2015/05/uroburos-actors-tools-1.1.pdf": {
+        "referenced_by": [
+            "relationship--64309b21-2dc2-4369-9c70-66f47f5c4b56",
+            "relationship--1782abeb-8d28-42a1-8abe-c137f23b282c",
+            "malware--da5880b4-f7da-4869-85f2-e0aba84b8565"
+        ],
+        "description": "Rascagneres, P. (2015, May). Tools used by the Uroburos actors. Retrieved August 18, 2016.",
+        "source_name": "NorthSec 2015 GData Uroburos Tools"
+    },
+    "https://www.us-cert.gov/ncas/analysis-reports/AR18-221A": {
+        "referenced_by": [
+            "relationship--283ba525-5180-461a-989b-87fc2f896ed7",
+            "relationship--d4f0554e-46bb-4fd5-94e8-900dfe3198cf",
+            "relationship--30ab931e-9cc1-4e95-a3f5-364be094b54e",
+            "relationship--d7cdf423-5fed-4402-b970-f6cf2d8df2bb",
+            "relationship--def89c4a-b394-4137-8a96-c794780352f2",
+            "relationship--5823e4cd-e6cb-4e62-8ed2-a0f296128d34",
+            "relationship--c2888af5-ccdd-43f1-947c-1abd69272ec2",
+            "relationship--90d8a8de-171a-4afc-be10-1d4407a83700",
+            "relationship--30efb3df-f7b4-47f8-9c5a-53a94509c929",
+            "relationship--14639d10-6371-4e84-a637-a0e5846cb053",
+            "relationship--107713b7-97e8-4cd6-8671-b38f86e02ed0",
+            "malware--11e36d5b-6a92-4bf9-8eb7-85eb24f59e22"
+        ],
+        "description": "US-CERT. (2018, August 09). MAR-10135536-17 \u2013 North Korean Trojan: KEYMARBLE. Retrieved August 16, 2018.",
+        "source_name": "US-CERT KEYMARBLE Aug 2018"
+    },
+    "https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf": {
+        "referenced_by": [
+            "relationship--62c8913c-c193-4feb-ab58-88343838336d",
+            "relationship--67b49860-e1e4-4b56-bf83-108c4ac25e5c",
+            "relationship--1f972385-7f1c-4cbd-a071-951973e6d229"
+        ],
+        "description": "Kaspersky Lab's Global Research & Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017.",
+        "source_name": "Securelist MiniDuke Feb 2013"
+    },
+    "https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/": {
+        "referenced_by": [
+            "relationship--06eb051c-74d0-4bbd-8cdf-1018b3c2e748",
+            "relationship--add09428-6eda-4cb2-8817-008038ed4f00",
+            "relationship--c1ed0848-df59-4cd1-8e39-a0d87002c652",
+            "relationship--ca71a63a-4481-46d2-98b2-b83cce190380",
+            "relationship--e2e35a7a-3057-4955-9e7e-c3972e0ad423",
+            "malware--2a70812b-f1ef-44db-8578-a496a227aef2"
+        ],
+        "description": "McAfee. (2015, March 2). Netwire RAT Behind Recent Targeted Attacks. Retrieved February 15, 2018.",
+        "source_name": "McAfee Netwire Mar 2015"
+    },
+    "https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf": {
+        "referenced_by": [
+            "relationship--52cf8793-2f13-45c2-8274-1a9bf5d6224a",
+            "relationship--b98c506f-3dd3-45c1-b81a-3e23bcfe6198",
+            "relationship--fe3c4134-ddef-45f8-b83a-6865a01b9764",
+            "relationship--1ee44004-6aaa-4b22-934d-4f4ef82cbbd4",
+            "relationship--47109a67-e1af-4f5c-8c58-c1580ff5c6ec",
+            "relationship--72cf9e20-cff4-49e2-8ea6-e212d473a8f5",
+            "relationship--2fe9c7cf-44aa-495b-bde6-80cbfc4fbed9",
+            "relationship--e7ac3ee3-a014-4b07-9bad-b93d3d1d0f4b",
+            "relationship--fcfe071b-e527-44e9-9970-9243a354f563",
+            "relationship--385f57f4-87b6-4126-ab67-531e482ec9bc",
+            "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0"
+        ],
+        "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, November 24). THE REGIN PLATFORM NATION-STATE OWNAGE OF GSM NETWORKS. Retrieved December 1, 2014.",
+        "source_name": "Kaspersky Regin"
+    },
+    "http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/": {
+        "referenced_by": [
+            "relationship--3b9e7ec8-8b10-4fe4-87b3-38b7710dbbb9",
+            "relationship--a79ff150-e765-4303-9668-ff553d6000cd",
+            "relationship--4e5dff55-c686-4fa6-bad1-caa8507083d9",
+            "relationship--384c75e4-04e7-4ff8-9da6-0c8a03cb7a61",
+            "relationship--a3fe1f58-b507-42ea-a21e-a6ac46de9ca8",
+            "relationship--d64ba78c-a332-40be-8e2f-904f15ceffe7",
+            "relationship--3efe41c1-48be-48fc-90d8-5ae70df3cd97",
+            "relationship--5c34be50-c7be-40c2-80bb-f3bc7db5cdd7",
+            "relationship--e2e91dcc-87b0-4ff8-a6cd-0dfd6a813483",
+            "relationship--266a5edd-1425-4ab1-88bf-a0d7897699eb",
+            "relationship--33162cc2-a800-4d42-89bb-13ac1e75dfce",
+            "malware--96b08451-b27a-4ff6-893f-790e26393a8e"
+        ],
+        "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, July 30). Sakula Malware Family. Retrieved January 26, 2016.",
+        "source_name": "Dell Sakula"
+    },
+    "https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar": {
+        "referenced_by": [
+            "relationship--0cbc1f3f-7a32-4056-bfa6-25186ac5e6a4",
+            "relationship--5576c38e-6b03-4ea9-8936-60eeddb749a7",
+            "relationship--788ca56e-1194-4c5f-a12b-72678390f1ef",
+            "relationship--1b4ee147-dc39-43d2-b468-fcd308e6cbae",
+            "relationship--c8b0afbb-12eb-4b45-a1e1-b11755de2976",
+            "relationship--ee51d531-5cc4-4836-a55c-6062bde1a4d4",
+            "relationship--df7fb8f2-e7a6-4342-8d67-09655ceefead",
+            "relationship--69bff194-c90e-4e30-a369-57da4cff014d",
+            "relationship--fa04b7b3-e9ea-4c35-a2a5-8d0c73f5698b",
+            "malware--91000a8a-58cc-4aba-9ad0-993ad6302b86"
+        ],
+        "description": "Cylance SPEAR Team. (2017, February 9). Shell Crew Variants Continue to Fly Under Big AV\u2019s Radar. Retrieved February 15, 2017.",
+        "source_name": "Cylance Shell Crew Feb 2017"
+    },
+    "https://www.us-cert.gov/ncas/analysis-reports/AR18-165A": {
+        "referenced_by": [
+            "relationship--ceb66bd9-3e75-4559-a0b9-3339a926cde6",
+            "relationship--f6557436-3564-4128-b93e-2c246ec00834",
+            "relationship--83e001e3-95d3-43d9-9f8c-8b954686287a",
+            "relationship--6d8d9425-86ec-42d3-bce5-2af53d4f1fad",
+            "relationship--a5263d1b-fe47-42bb-90ab-ae9fbcfe5f67",
+            "relationship--d40e67b8-49d3-4dfb-8a1b-342e841728ef",
+            "relationship--ce71fe23-3f12-4a7c-9966-5822cdce29d3",
+            "relationship--4ad5ed17-dc83-400f-a847-5f14407ce794",
+            "relationship--77b9e1c5-8241-4260-8125-4bc2e1206b9c",
+            "relationship--b9ed3f57-0331-431a-96ff-b536c966aa6d",
+            "relationship--fe1c5e06-ea4b-4286-af2d-984a095f7924",
+            "relationship--c7216b7e-6469-4e00-94d4-9e5ee2a0e99e",
+            "relationship--ccd237b6-c7d6-4941-a1f2-cb563ae90b79",
+            "relationship--573e7f53-26e9-4eae-af0e-308d11192f57",
+            "relationship--42914dfa-9644-4bf6-bb5f-45c0e3303d7b",
+            "relationship--d0e4c9af-070a-43bd-82e6-c047f7ebf491",
+            "relationship--448ea71c-ebfa-4604-bb8e-0c8c997c746a",
+            "malware--7ba0fc46-197d-466d-8b9f-f1c64d5d81e5"
+        ],
+        "description": "US-CERT. (2018, June 14). MAR-10135536-12 \u2013 North Korean Trojan: TYPEFRAME. Retrieved July 13, 2018.",
+        "source_name": "US-CERT TYPEFRAME June 2018"
+    },
+    "http://www.microsoft.com/security/portal/threat/encyclopedia/entry.aspx?Name=Win32%2FKasidet": {
+        "referenced_by": [
+            "relationship--828afc32-9874-40aa-b752-315c7623ffee"
+        ],
+        "description": "Manuel, J. and Plantado, R.. (2015, August 9). Win32/Kasidet. Retrieved March 24, 2016.",
+        "source_name": "Microsoft Kasidet"
+    },
+    "https://www.us-cert.gov/ncas/alerts/TA17-318B": {
+        "referenced_by": [
+            "relationship--35697909-4c19-4799-a5ac-3153750619f8",
+            "relationship--11de35bf-195d-4097-a27a-d2e2b7c433b3",
+            "relationship--720cc0d6-9285-425b-bda2-3bdd59b4ea8f",
+            "relationship--3a6c13d3-6589-4d33-9848-88e3409be0cc",
+            "relationship--9f1c680d-042e-4291-bf9c-85c51120aa8b",
+            "relationship--a49ed7b1-8160-48ae-a65f-feeb4747c522",
+            "relationship--084ac639-2502-4020-8938-65352349acbb",
+            "relationship--96a09c57-4848-464e-8649-142152c91db9",
+            "relationship--2902ccff-873a-4ebc-bdf4-caaae629ae9d",
+            "relationship--6139509a-709b-4ef4-81fb-25b9a35e2c60",
+            "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08"
+        ],
+        "description": "US-CERT. (2017, November 22). Alert (TA17-318B): HIDDEN COBRA \u2013 North Korean Trojan: Volgmer. Retrieved December 7, 2017.",
+        "source_name": "US-CERT Volgmer Nov 2017"
+    },
+    "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-D_WHITE_S508C.PDF": {
+        "referenced_by": [
+            "relationship--35697909-4c19-4799-a5ac-3153750619f8",
+            "relationship--11de35bf-195d-4097-a27a-d2e2b7c433b3",
+            "relationship--fd2f1a44-2ae7-4df0-b53c-42bc96af2da1",
+            "relationship--4ed458b0-e5cd-48c7-baba-a33ca84a8738",
+            "relationship--e5d5ca1f-1e8e-4870-a9ef-33a963ee6148",
+            "relationship--720cc0d6-9285-425b-bda2-3bdd59b4ea8f",
+            "relationship--3a6c13d3-6589-4d33-9848-88e3409be0cc",
+            "relationship--2a945fce-862b-46ff-8ee5-b78b220803f3",
+            "relationship--9f1c680d-042e-4291-bf9c-85c51120aa8b",
+            "relationship--bd8fec61-37c8-489b-a74b-424ff85222ad",
+            "relationship--fa14a106-cc98-4a5f-b849-85a5491eea36",
+            "relationship--c73fd631-245d-4b19-811f-2999e3d44182",
+            "relationship--2902ccff-873a-4ebc-bdf4-caaae629ae9d",
+            "relationship--5ac475f9-f253-44db-861e-c7303961aa6c",
+            "relationship--e5a99bb2-c6d6-4a9c-bf31-4edd1d602c4e",
+            "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08"
+        ],
+        "description": "US-CERT. (2017, November 01). Malware Analysis Report (MAR) - 10135536-D. Retrieved July 16, 2018.",
+        "source_name": "US-CERT Volgmer 2 Nov 2017"
+    },
+    "https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/": {
+        "referenced_by": [
+            "relationship--59aabb7b-9211-4577-9c6b-ba2cf6e3704c",
+            "relationship--a423dc5c-c506-4cc5-b65c-0c9269d18fb6",
+            "relationship--b3973baa-0185-45a1-934d-2b29f742a2df",
+            "relationship--044ad6d3-9389-4764-9b96-ad53dc98840d",
+            "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab"
+        ],
+        "description": "Belcher, P.. (2016, July 28). Tunnel of Gov: DNC Hack and the Russian XTunnel. Retrieved August 3, 2016.",
+        "source_name": "Invincea XTunnel"
+    },
+    "http://www.secureworks.com/cyber-threat-intelligence/threats/skeleton-key-malware-analysis/": {
+        "referenced_by": [
+            "relationship--f76355cb-9aa5-403c-aae4-8faed799ac31",
+            "malware--89f63ae4-f229-4a5c-95ad-6f22ed2b5c49"
+        ],
+        "description": "Dell SecureWorks. (2015, January 12). Skeleton Key Malware Analysis. Retrieved February 2, 2015.",
+        "source_name": "Dell Skeleton"
+    },
+    "http://www.secureworks.com/cyber-threat-intelligence/threats/wiper-malware-analysis-attacking-korean-financial-sector/": {
+        "referenced_by": [
+            "relationship--82268341-e0a8-4937-8618-351e147daa0c",
+            "malware--a19c49aa-36fe-4c05-b817-23e1c7a7d085"
+        ],
+        "description": "Dell SecureWorks. (2013, March 21). Wiper Malware Analysis Attacking Korean Financial Sector. Retrieved May 13, 2015.",
+        "source_name": "Dell Wiper"
+    },
+    "http://www.ampliasecurity.com/research/wcefaq.html": {
+        "referenced_by": [
+            "relationship--935971d6-0af2-4683-971a-9acb523733fe",
+            "tool--242f3da3-4425-4d11-8f5c-b842886da966"
+        ],
+        "description": "Amplia Security. (n.d.). Windows Credentials Editor (WCE) F.A.Q.. Retrieved December 17, 2015.",
+        "source_name": "Amplia WCE"
+    },
+    "https://twitter.com/subTee/status/888102593838362624": {
+        "referenced_by": [
+            "relationship--73f5c564-53b1-48bc-8cab-32fa4a608672"
+        ],
+        "description": "Smith, Casey. (2017, July 20). SubTee Twitter Status. Retrieved July 21, 2017.",
+        "source_name": "Twitter subTee Certutil Downloader"
+    },
+    "https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm": {
+        "referenced_by": [
+            "course-of-action--c085476e-1964-4d7f-86e1-d8657a7741e8",
+            "course-of-action--5c49bc54-9929-48ca-b581-7018219b5a97",
+            "course-of-action--95c29444-49f9-49f7-8b20-bcd68d8fcaa6",
+            "course-of-action--10571bf2-8073-4edf-a71c-23bad225532e",
+            "course-of-action--25d5e1d8-c6fb-4735-bc57-115a21222f4b",
+            "course-of-action--16dd03c6-0dfb-4d77-89cd-9ff3ee6e533d",
+            "course-of-action--8bd1ae32-a686-48f4-a6f8-470287f76152",
+            "course-of-action--2497ac92-e751-4391-82c6-1b86e34d0294",
+            "course-of-action--16a8ac85-a06f-460f-ad22-910167bd7332",
+            "course-of-action--1c0b39f9-a0c5-42b2-abd8-dc8f1eb74e67",
+            "course-of-action--d7c49196-b40e-42bc-8eed-b803113692ed",
+            "course-of-action--19edfa02-1a5f-47e4-ad82-3288f57f64cf",
+            "course-of-action--82fbc58b-171d-4a2d-9a20-c6b2a716bd08",
+            "course-of-action--f28a20fd-d173-4603-807e-2cb3f51bdf04",
+            "course-of-action--ff5d862a-ae6b-4833-8c15-e235d654d28e",
+            "course-of-action--3a41b366-cfd6-4af2-a6e7-3c6e3c4ebcef",
+            "course-of-action--aeff5887-8f9e-48d5-a523-9b395e2ce80a",
+            "course-of-action--96913243-2b5e-4483-a65c-bb152ddd2f04",
+            "course-of-action--28adf6fd-ab6c-4553-9aa7-cef18a191f33",
+            "course-of-action--2a8de25c-f743-4348-b101-3ee33ab5871b",
+            "course-of-action--4320b080-9ae9-4541-9b8b-bcd0961dbbbd",
+            "course-of-action--7ee0879d-ce4f-4f54-a96b-c532dfb98ffd",
+            "course-of-action--d9727aee-48b8-4fdb-89e2-4c49746ba4dd",
+            "course-of-action--39706d54-0d06-4a25-816a-78cc43455100",
+            "course-of-action--d01f473f-3cdc-4867-9e55-1de9cf1986f0",
+            "course-of-action--383caaa3-c46a-4f61-b2e3-653eb132f0e7",
+            "course-of-action--56db6ccc-433d-4411-8383-c3fd7053e2c8",
+            "course-of-action--cba5667e-e3c6-44a4-811c-266dbc00e440",
+            "course-of-action--34efb2fd-4dc2-40d4-a564-0c147c85034d",
+            "course-of-action--902286b2-96cc-4dd7-931f-e7340c9961da",
+            "course-of-action--1022138b-497c-40e6-b53a-13351cbd4090",
+            "course-of-action--2ace01f8-67c8-43eb-b7b1-a7b9f1fe67e1",
+            "course-of-action--aaa92b37-f96c-4a0a-859c-b1cb6faeb13d",
+            "course-of-action--33f76731-b840-446f-bee0-53687dad24d9",
+            "course-of-action--4b998a71-7b8f-4dcc-8f3f-277f2e740271",
+            "course-of-action--1e614ba5-2fc5-4464-b512-2ceafb14d76d",
+            "course-of-action--da8a87d2-946d-4c34-9a30-709058b98996",
+            "course-of-action--9ab7de33-99b2-4d8d-8cf3-182fa0015cc2",
+            "course-of-action--45e7f570-6a0b-4095-bf02-4bca05da6bae",
+            "course-of-action--fe0aeb41-1a51-4152-8467-628256ea6adf",
+            "course-of-action--ed202147-4026-4330-b5bd-1e8dfa8cf7cc",
+            "course-of-action--ac008435-af58-4f77-988a-c9b96c5920f5",
+            "course-of-action--624d063d-cda8-4616-b4e4-54c04e427aec",
+            "course-of-action--d256cb63-b021-4b4a-bb6d-1b42eea179a3",
+            "course-of-action--94e95eeb-7cdb-4bd7-afba-f32fda303dbb",
+            "course-of-action--1f34230d-b6ae-4dc7-8599-78c18820bd21",
+            "course-of-action--46b7ef91-4e1d-43c5-a2eb-00fa9444f6f4",
+            "course-of-action--b7b2c89c-09c1-4b71-ae7c-000ec2893aab",
+            "course-of-action--3a476d83-43eb-4fad-9b75-b1febd834e3d",
+            "course-of-action--e0703d4f-3972-424a-8277-84004817e024",
+            "course-of-action--1881da33-fdf2-4eea-afd0-e04caf9c000f",
+            "course-of-action--dd9a85ad-6a92-4986-a215-b01d0ce7b987",
+            "course-of-action--f6469191-1814-4dbe-a081-2a6daf83a10b",
+            "course-of-action--34d6a2ef-370e-4d21-a34b-6208b7c78f31",
+            "course-of-action--7c39ebbf-244e-4d1c-b0ac-b282453ece43",
+            "course-of-action--74febc44-8955-4e4d-aca0-d4dad2f967d7",
+            "course-of-action--0640214c-95af-4c04-a574-2a1ba6dda00b",
+            "course-of-action--f9b3e5d9-7454-4b7d-bce6-27620e19924e",
+            "course-of-action--8b36d944-f274-4d46-9acd-dbba6927ce7a",
+            "course-of-action--9a902722-cecd-4fbe-a6c9-49333aa0f8c2",
+            "course-of-action--effb83a0-ead1-4b36-b7f6-b7bdf9c4616e",
+            "course-of-action--95ddb356-7ba0-4bd9-a889-247262b8946f",
+            "course-of-action--f2cb6ce2-188d-4162-8feb-594f949b13dd",
+            "course-of-action--51b37302-b844-4c08-ac98-ae6955ed1f55",
+            "course-of-action--bd2554b8-634f-4434-a986-9b49c29da2ae",
+            "course-of-action--d5dce4b9-f1fa-4c03-aff9-ce177246cb64",
+            "course-of-action--9378f139-10ef-4e4b-b679-2255a0818902",
+            "course-of-action--a13e35cc-8c90-4d77-a965-5461042c1612",
+            "course-of-action--c95c8b5c-b431-43c9-9557-f494805e2502",
+            "course-of-action--c620e3a1-fff5-424f-abea-d2b0f3616f67",
+            "course-of-action--684feec3-f9ba-4049-9d8f-52d52f3e0e40",
+            "course-of-action--c1676218-c16a-41c9-8f7a-023779916e39",
+            "course-of-action--16f144e4-c780-4ed2-98b4-55d14e2dfa44",
+            "course-of-action--d8787791-d22e-45bb-a9a8-251d8d0a1ff2",
+            "course-of-action--82d8e990-c901-4aed-8596-cc002e7eb307",
+            "course-of-action--f0a42cad-9b1f-44da-a672-718f18381018",
+            "course-of-action--a1482e43-f3ff-4fbd-94de-ad1244738166",
+            "course-of-action--5c167af7-c2cb-42c8-ae67-3fb275bf8488",
+            "course-of-action--e8d22ec6-2236-48de-954b-974d17492782",
+            "course-of-action--d9f4b5fa-2a39-4bdf-b40a-ea998933cd6d",
+            "course-of-action--308855d1-078b-47ad-8d2a-8f9b2713ffb5",
+            "course-of-action--313c8b20-4d49-40c1-9ac0-4c573aca28f3"
+        ],
+        "description": "NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.",
+        "source_name": "NSA MS AppLocker"
+    },
+    "https://github.com/iadgov/Secure-Host-Baseline/tree/master/Credential%20Guard": {
+        "referenced_by": [
+            "course-of-action--aeff5887-8f9e-48d5-a523-9b395e2ce80a"
+        ],
+        "description": "NSA IAD. (2017, April 20). Secure Host Baseline - Credential Guard. Retrieved April 25, 2017.",
+        "source_name": "GitHub SHB Credential Guard"
+    },
+    "http://support.microsoft.com/kb/2962486": {
+        "referenced_by": [
+            "course-of-action--0472af99-f25c-4abe-9fce-010fa3450e72"
+        ],
+        "description": "Microsoft. (2014, May 13). MS14-025: Vulnerability in Group Policy Preferences could allow elevation of privilege. Retrieved January 28, 2015.",
+        "source_name": "Microsoft MS14-025"
+    },
+    "https://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices": {
+        "referenced_by": [
+            "course-of-action--7009ba4d-83d4-4851-9fbb-e09e28497765"
+        ],
+        "description": "US-CERT. (2017, March 16). SMB Security Best Practices. Retrieved December 21, 2017.",
+        "source_name": "US-CERT SMB Security"
+    },
+    "https://answers.microsoft.com/windows/forum/windows_10-security/part-of-windows-10-or-really-malware/af715663-a34a-423c-850d-2a46f369a54c": {
+        "referenced_by": [
+            "course-of-action--33f76731-b840-446f-bee0-53687dad24d9"
+        ],
+        "description": "Microsoft. (2015, July 30). Part of Windows 10 or really Malware?. Retrieved December 18, 2017.",
+        "source_name": "Microsoft IFEOorMalware July 2015"
+    },
+    "https://github.com/iadgov/Secure-Host-Baseline/tree/master/EMET": {
+        "referenced_by": [
+            "course-of-action--12c13879-b7bd-4bc5-8def-aacec386d432",
+            "course-of-action--8c918d8a-11c5-4ffd-af10-e74bc06bdfae"
+        ],
+        "description": "National Security Agency. (2016, May 4). Secure Host Baseline EMET. Retrieved June 22, 2016.",
+        "source_name": "Secure Host Baseline EMET"
+    },
+    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf": {
+        "referenced_by": [
+            "course-of-action--43b366a4-b5ff-4d4e-8a3b-f09a9d2faff5"
+        ],
+        "description": "Scarfone, K. et al.. (2008, July). NIST Special Publication 800-123 - Guide to General Server Security. Retrieved July 26, 2018.",
+        "source_name": "NIST Server Security July 2008"
+    },
+    "http://dx.doi.org/10.6028/NIST.IR.7622": {
+        "referenced_by": [
+            "course-of-action--97d8eadb-0459-4c1d-bf1a-e053bd75df61"
+        ],
+        "description": "Boyens, J,. Et al.. (2002, October). Notional Supply Chain Risk Management Practices for Federal Information Systems. Retrieved April 6, 2018.",
+        "source_name": "NIST Supply Chain 2012"
+    },
+    "https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md": {
+        "referenced_by": [
+            "course-of-action--823fbfe9-b015-4bf3-9e67-d340c7373ca0"
+        ],
+        "description": "Microsoft. (2017, June 16). Deploy code integrity policies: steps. Retrieved June 28, 2017.",
+        "source_name": "Microsoft GitHub Device Guard CI Policies"
+    },
+    "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf": {
+        "referenced_by": [
+            "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+            "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542"
+        ],
+        "description": "Department of Homeland Security and Federal Bureau of Investigation. (2016, December 29). GRIZZLY STEPPE \u2013 Russian Malicious Cyber Activity. Retrieved January 11, 2017.",
+        "source_name": "GRIZZLY STEPPE JAR"
+    },
+    "https://www.us-cert.gov/ncas/alerts/TA17-164A": {
+        "referenced_by": [
+            "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a"
+        ],
+        "description": "US-CERT. (2017, June 13). Alert (TA17-164A) HIDDEN COBRA \u2013 North Korea\u2019s DDoS Botnet Infrastructure. Retrieved July 13, 2017.",
+        "source_name": "US-CERT HIDDEN COBRA June 2017"
+    },
+    "http://enterprise-manage.norman.c.bitbit.net/resources/files/Unveiling_an_Indian_Cyberattack_Infrastructure.pdf": {
+        "referenced_by": [
+            "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0"
+        ],
+        "description": "Fagerland, S., et al. (2013, May). Operation Hangover: Unveiling an Indian Cyberattack Infrastructure. Retrieved September 26, 2016.",
+        "source_name": "Operation Hangover May 2013"
+    },
+    "http://blog.cylance.com/puttering-into-the-future": {
+        "referenced_by": [
+            "intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45"
+        ],
+        "description": "Gross, J. and Walter, J.. (2016, January 12). Puttering into the Future.... Retrieved January 22, 2016.",
+        "source_name": "Cylance Putter Panda"
+    }
+}
