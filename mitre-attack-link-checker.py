@@ -61,7 +61,7 @@ def get_status_code(url):
         req         = requests.head(url, headers = headers, allow_redirects = True )
         status_code = req.status_code
         
-        if (status_code == 405 or status_code == 409):  # some sites do not allow get
+        if (status_code == 405 or status_code == 409):  # some sites do not allow HTTP HEAD
             req         = requests.get(url, headers = headers, allow_redirects = True )
             status_code = req.status_code
         return status_code 
